@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: "{{ .Values.postgres.name }}-pvc" 
+  name: postgres-pvc
 spec:
   resources:
     requests:
