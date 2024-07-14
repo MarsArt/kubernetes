@@ -12,3 +12,4 @@ spec:
       image: busybox
       command: ['wget']
       args: ['{{ .Values.api.name  }}-clusterip:{{ .Values.api.port }}/api']
+  restartPolicy: Never    
